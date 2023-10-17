@@ -1,0 +1,19 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/rick-and-morty.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    filter: blur(0) !important;
+    -webkit-filter: blur(0) !important;
+}
