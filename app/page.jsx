@@ -41,7 +41,7 @@ export default function Home() {
         <div>
             <div className={styles.cards}>
                 {
-                    data.map((character) => (
+                    data.results.map((character) => (
                         <div key={character.id}>
                             <div>
                                 <img src={character.image} alt={character.name} />
